@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="profile-container">
+    <div class="profile-card">
+
+        <div class="profile-header">
+            <div class="avatar">
+                <span id="avatarText">U</span>
+            </div>
+            <h2 id="pname">User Name</h2>
+            <p id="pemail">user@email.com</p>
+        </div>
+
+        <div class="profile-details">
+            <div class="detail">
+                <span><b>Username</b></span>
+                <p id="pusername"></p>
+            </div>
+
+            <div class="detail">
+                <span><b>Mobile Number</b></span>
+                <p id="pmobile"></p>
+            </div>
+
+            <div class="detail">
+                <span><b>Date of Birth</b></span>
+                <p id="pdob"></p>
+            </div>
+
+            <div class="detail">
+                <span><b>Gender</b></span>
+                <p id="pgender"></p>
+            </div>
+
+            <div class="detail full">
+                <span><b>Address</b></span>
+                <p id="paddress"></p>
+            </div>
+        </div>
+        <div class="profile-actions">
+            <button onclick="logout()">Logout</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
